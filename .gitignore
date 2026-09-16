@@ -1,23 +1,41 @@
+# =========================
 # Python cache
+# =========================
 __pycache__/
 *.py[cod]
+*$py.class
 
+
+# =========================
 # IDE
+# =========================
 .idea/
 .vscode/
 
-# Environment
+
+# =========================
+# Python environment
+# =========================
 venv/
 .venv/
 env/
 
-# Results
+
+# =========================
+# Experiment results
+# =========================
 results/
 
-# Model weights
-*.pth
-*.pt
 
+# =========================
+# Temporary files
+# =========================
+*.log
+*.tmp
+
+
+# =========================
 # System
+# =========================
 .DS_Store
 Thumbs.db

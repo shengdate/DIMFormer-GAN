@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+.vscode/
+
+# Environment
+venv/
+.venv/
+env/
+
+# Results
+results/
+
+# Model weights
+*.pth
+*.pt
+
+# System
+.DS_Store
+Thumbs.db
